@@ -1,0 +1,24 @@
+#hero {
+    background: #F0F0F0;
+    margins: 0 auto;
+}
+
+#hero-highlight {
+    font-family: fantasy;
+    background-image: url("./jp-texture.jpg");
+     background-size: 75%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px black;
+  
+    }
+
+    #highlight {
+        text-shadow: 3px 3px rgba(115, 51, 29, 0.52);
+    }
+
+    #hero-links > li:hover {
+        color: rgba(96, 25, 0, 1)
+    }
+
+ 
