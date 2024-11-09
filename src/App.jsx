@@ -4,14 +4,23 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Hero from './Hero'
 import Title from './Title'
+import About from './About'
 
 function App() {
  
 
   return (
     <>
-     <Hero/>
-     <Title text="ABOUT ME"/>
+    <div className='scroller'>     
+      <section>
+      <Hero/>
+      </section>
+      <section>
+      <Title text="ABOUT ME"/>
+      <About/>
+      </section>
+      </div>
+
     </>
   )
 }

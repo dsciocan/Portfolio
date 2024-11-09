@@ -5,6 +5,17 @@
   background: #0B1215;
   /* text-align: center; */
 }
+
+
+.scroller {
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+}
+
+.scroller section {
+  scroll-snap-align: start;
+}
 /*
 .logo {
   height: 6em;
