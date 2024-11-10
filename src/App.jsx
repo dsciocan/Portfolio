@@ -19,6 +19,9 @@ function App() {
       <Title text="ABOUT ME"/>
       <About/>
       </section>
+      <section>
+        <Title text = "PROJECTS"/>
+      </section>
       </div>
 
     </>
