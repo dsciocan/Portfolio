@@ -1,0 +1,22 @@
+.card img{
+    width: 33vw;
+    height: 45vh;
+    box-shadow: 2px 1px 8px black;
+
+}
+
+.card {
+    background-size: 100%;
+    
+}
+
+.overlay {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+
+.card:hover .overlay: {
+    opacity:1;
+}

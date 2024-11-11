@@ -5,6 +5,7 @@ import './App.css'
 import Hero from './Hero'
 import Title from './Title'
 import About from './About'
+import Projects from './Projects'
 
 function App() {
  
@@ -21,6 +22,7 @@ function App() {
       </section>
       <section>
         <Title text = "PROJECTS"/>
+        <Projects/>
       </section>
       </div>
 

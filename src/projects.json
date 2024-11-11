@@ -1,0 +1,38 @@
+[
+{ "id":  1,
+"img": "./assets/timewise.jpg",
+"title":"Timewise - Productivity",
+"link":"https://time-wise.netlify.app/",
+"repo":"https://github.com/dsciocan/TimeWise"
+}, 
+{ "id":  2,
+"img": "./assets/travel-wizard.jpg",
+"title":"Travel Wizard - Journey Planner",
+"link":"https://dsciocan.github.io/Travel-Wizard/",
+"repo":"https://github.com/dsciocan/Travel-Wizard"
+}, 
+{ "id":  3,
+"img": "./assets/weather.jpg",
+"title":"Weather Dashboard",
+"link":"https://dsciocan.github.io/weather-dashboard/",
+"repo":"https://github.com/dsciocan/weather-dashboard"
+},
+{ "id":  4,
+"img": "./assets/scheduler.jpg",
+"title":"Daily Scheduler",
+"link":"https://dsciocan.github.io/daily-schedule/",
+"repo":"https://github.com/dsciocan/daily-schedule"
+},
+{ "id":  5,
+"img": "./assets/readme.jpg",
+"title":"README Generator",
+"link":"https://github.com/dsciocan/README-generator",
+"repo":"https://github.com/dsciocan/README-generator"
+},
+{ "id":  6,
+"img": "./assets/coding-quiz.jpg",
+"title":"JavaScript Quiz",
+"link":"https://dsciocan.github.io/javascript-quiz/",
+"repo":"https://github.com/dsciocan/javascript-quiz"
+}
+]
