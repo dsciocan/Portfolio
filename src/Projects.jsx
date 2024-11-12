@@ -9,7 +9,7 @@ export default function Projects() {
     )
 
     return(
-        <div className="bg-bg-light">
+        <div className="bg-bg-light pb-16">
             <div className="flex justify-evenly">
             {projects[0]}
             {projects[1]}

@@ -6,6 +6,7 @@ import Hero from './Hero'
 import Title from './Title'
 import About from './About'
 import Projects from './Projects'
+import Contact from './Contact'
 
 function App() {
  
@@ -23,6 +24,10 @@ function App() {
       <section>
         <Title text = "PROJECTS"/>
         <Projects/>
+      </section>
+      <section>
+        <Title text="GET IN TOUCH"/>
+        <Contact/>
       </section>
       </div>
 
