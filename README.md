@@ -1,8 +1,41 @@
-# React + Vite
+# Portfolio
+## Description
+If you stumbled upon this, you should go check out my portfolio website, featuring a minimalist-ish design and some of my projects!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Page screenshot](/public/assets/screenshot.jpg)
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Installation](#installation)
+
+[Usage](#usage)
+
+[License](#license)
+
+[Questions](#questions)
+
+## Installation
+ No installation required, all you need to do is click [here](https://daniela-ciocan-portfolio.netlify.app/) to access it!
+## Usage
+
+This is a one-page website with three sections: 
+- About
+- Projects
+- Contact
+
+There are quick links to each of them in the hero section, followed by the sections themselves. 
+
+The About page contains a short description about me and my coding journey. 
+
+The Projects page contains a series of my past projects. Hovering on each of them will reveal links to the websites/repos they can be accessed from.
+
+The Contact page contains a form you can fill in if you want to get in touch, as well as links to other profiles/ways of contacting me.  
+
+## License
+ [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+## Questions
+ For questions, contact me through the links below:
+
+ GitHub: [dsciocan](https://github.com/dsciocan)
+ Email: daniela.ciocan137@gmail.com
