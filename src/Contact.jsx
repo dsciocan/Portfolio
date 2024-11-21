@@ -32,18 +32,18 @@ export default function Contact() {
   };
 
     return (
-        <div className="bg-bg-light px-20 py-10 text-center">
+        <div className="bg-bg-light sm:px-20 py-10 text-center">
             <h3 className="text-2xl font-light mb-10">If you have got any questions, ask away!</h3>                
-            <div className="font-light text-xl mb-5">
+            <div className="font-light sm:text-xl text-2xl mb-5">
             <form onSubmit={onSubmit}>
                 <label for="name">Name(required): </label>
-                <input className="w-96 px-4 pb-2 mb-8 h-8 rounded-md" type="text" name="name" required/>
+                <input className="w-88 sm:w-96 px-4 pb-2 mb-8 h-12 sm:h-8 rounded-md" type="text" name="name" required/>
                 <br/>
                 <label for="email">Email(required): </label>
-                <input className="ml-3 px-4 pb-2 w-96 mb-8 h-8 rounded-md" type="email" name="email" required/>
+                <input className="ml-3 w-88 sm:w-96 px-4 pb-2 mb-8 h-12 sm:h-8 rounded-md" type="email" name="email" required/>
                 <br/>
-                <label for="message">Your message:</label>
-                <textarea className="w-96 px-4 ml-5 rounded-md" name="message" required></textarea>
+                <label className="mr-5" for="message">Your message:</label>
+                <textarea className="w-88 sm:w-96 px-10  rounded-md" rows="3" name="message"></textarea>
                 <br/>
                 <button className="bg-bg-dark mt-5 rounded-lg px-2 py-2 font-normal text-bg-light" type="submit">Submit Form</button>
             </form>

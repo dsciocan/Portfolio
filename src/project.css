@@ -1,8 +1,13 @@
 .card img{
-    width: 33vw;
-    height: 45vh;
+    /* width: 33vw;
+    height: 45vh; */
     box-shadow: 2px 1px 8px black;
-
+    user-drag: none; 
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 .card {
@@ -10,13 +15,31 @@
     
 }
 
+
+.perm-overlay {
+    background-color: rgba(0,0,0, 0.15)
+}
+
 .overlay {
     background-color: black;
     color: white;
     font-size: 20px;
     text-align: center;
+    user-drag: none; 
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+
   }
 
-.card:hover .overlay: {
+.card:hover .card:active .overlay {
     opacity:1;
+}
+
+@media (hover:none) {
+    .overlay {
+        opacity:1;
+    }
 }

@@ -1,6 +1,11 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+
 import './App.css'
 import Hero from './Hero'
 import Title from './Title'
@@ -12,26 +17,28 @@ function App() {
  
 
   return (
-    <>
-    <div className='scroller'>     
-      <section>
+    <BrowserRouter>
+    <Routes>  
+    <Route path={"/"} element={
+    <div className='scroller'>
+        <section>
       <Hero/>
       </section>
-      <section>
+      <section id="about">
       <Title text="ABOUT ME"/>
       <About/>
       </section>
-      <section>
+      <section id="projects">
         <Title text = "PROJECTS"/>
         <Projects/>
       </section>
-      <section>
+      <section id="contact">
         <Title text="GET IN TOUCH"/>
         <Contact/>
       </section>
-      </div>
-
-    </>
+      </div>}/>
+      </Routes>
+    </BrowserRouter>
   )
 }
 

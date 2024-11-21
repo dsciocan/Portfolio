@@ -2,3 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: "Takobe";
+    src: url("../public/fonts/Takobe-Demo.ttf");
+  }
+
+@font-face {
+    font-family: "Brush1";
+    src: url("../public/fonts/Brush.ttf");
+  }
+
+@font-face {
+    font-family: "Inkg";
+    src: url("../public/fonts/Inkgasm.ttf");
+  }
+
+@font-face {
+    font-family: "PubBru";
+    src: url("../public/fonts/Publicity-Brush.ttf");
+  }
+
+
+@font-face {
+    font-family: "SunBru";
+    src: url("../public/fonts/Sun-Brush.ttf");
+  }
+
+@font-face {
+    font-family: "Deysia";
+    src: url("../public/fonts/Deysia-Brush.ttf");
+  }

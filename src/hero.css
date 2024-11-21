@@ -8,13 +8,12 @@
 }
 
 #hero-highlight {
-    font-family: fantasy;
-    background-image: url("./jp-texture.jpg");
-    background-size: 75%;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* font-family: fantasy; */
+    /* background-image: url("./jp-texture.jpg"); */
+    background-size: 25%;
+    /* background-clip: text;
+    -webkit-text-fill-color: transparent; */
     -webkit-text-stroke: 2px black;
-    font-size: 7rem;
   
     }
 

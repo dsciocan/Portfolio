@@ -10,7 +10,7 @@ export default function Title(props) {
         initial={{ opacity:0, x:-75}}
         whileInView={{opacity:1, x:0}}
         transition={{duration:1.5, delay:0.5}} >
-            <h3 className="text-5xl font-semibold text-white pl-10">{props.text}</h3>
+            <h3 className=" text-4xl sm:text-5xl font-semibold text-white pl-10">{props.text}</h3>
         </motion.div >
         <motion.div 
         initial={{ x:-200}}
