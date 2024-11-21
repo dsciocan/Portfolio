@@ -15,7 +15,7 @@ If you stumbled upon this, you should go check out my portfolio website, featuri
 [Questions](#questions)
 
 ## Installation
- No installation required, all you need to do is click [here](https://daniela-ciocan-portfolio.netlify.app/) to access it!
+ No installation required, all you need to do is click [here](https://dsc-portfolio.netlify.app/) to access it!
 ## Usage
 
 This is a one-page website with three sections: 
