@@ -1,38 +1,68 @@
 [
-{ "id":  1,
+    {"id":  1,
+"img": "./assets/wanna-watch.png",
+"title":"WannaWatch",
+"link1":"https://github.com/dsciocan/media-tracker-front",
+"title2":"Back-end",
+"link2":"https://github.com/dsciocan/media-tracker-back",
+"description":"A full-stack Android application that allows the user to track their watched movies & TV shows, and see statistics based on their watching habits.",
+"technologies":["Java", "Spring Boot", "Android Studio", "PostgreSQL", "Firebase", "AnyChart", "TMDB API"]
+},
+{"id":  2,
+"img": "./assets/record-shop.png",
+"title":"Record Shop",
+"link":"https://github.com/dsciocan/Record-Shop-Android",
+"title2":"Back-end",
+"link2":"https://github.com/dsciocan/Record-Shop",
+"description":"A full-stack CRUD Android application that displays album data from a back-end API.",
+"technologies":["Java", "Spring Boot", "Android Studio", "PostgreSQL"]
+},
+{ "id":  3,
 "img": "./assets/timewise.jpg",
 "title":"Timewise - Productivity",
 "link":"https://time-wise.netlify.app/",
-"repo":"https://github.com/dsciocan/TimeWise"
+"link2":"https://github.com/dsciocan/TimeWise",
+"description":"A React front-end web app designed for peak productivity, featuring a Pomodoro timer, seamless note capture, and a robust calendar function.",
+"technologies":["Javascript", "React", "Bootstrap", "Material UI", "React FullCalendar"] 
 }, 
-{ "id":  2,
+{ "id":  4,
 "img": "./assets/travel-wizard.jpg",
 "title":"Travel Wizard - Journey Planner",
 "link":"https://dsciocan.github.io/Travel-Wizard/",
-"repo":"https://github.com/dsciocan/Travel-Wizard"
+"link2":"https://github.com/dsciocan/Travel-Wizard",
+"description":"Travel planner web application, designed to provide solo travellers with a list of optimally priced suggestions and historic weather data for their travel destination",
+"technologies":["Javascript", "jQuery", "HTML", "CSS", "Bootstrap", "OpenWeatherMap API", "TripAdvisor API"]
 }, 
-{ "id":  3,
+{ "id":  5,
 "img": "./assets/weather.jpg",
 "title":"Weather Dashboard",
 "link":"https://dsciocan.github.io/weather-dashboard/",
-"repo":"https://github.com/dsciocan/weather-dashboard"
+"link2":"https://github.com/dsciocan/weather-dashboard",
+"description":"Web application allowing the user to view a five-day weather forecast for one location at a time.",
+"technologies":["Javascript", "HTML", "CSS", "OpenWeatherMap API"]
 },
-{ "id":  4,
+{ "id":  6,
 "img": "./assets/scheduler.jpg",
 "title":"Daily Scheduler",
 "link":"https://dsciocan.github.io/daily-schedule/",
-"repo":"https://github.com/dsciocan/daily-schedule"
+"link2":"https://github.com/dsciocan/daily-schedule",
+"description":"Web application allowing the user to organise their work day.",
+"technologies":["Javascript", "HTML", "CSS"]
 },
-{ "id":  5,
+{ "id":  7,
 "img": "./assets/readme.jpg",
 "title":"README Generator",
 "link":"https://github.com/dsciocan/README-generator",
-"repo":"https://github.com/dsciocan/README-generator"
+"link2":"https://github.com/dsciocan/README-generator",
+"description":"Comand line program that writes a custom README file based on user input. ",
+"technologies":["Javascript", "node.JS"]
 },
-{ "id":  6,
+{ "id":  8,
 "img": "./assets/coding-quiz.jpg",
 "title":"JavaScript Quiz",
 "link":"https://dsciocan.github.io/javascript-quiz/",
-"repo":"https://github.com/dsciocan/javascript-quiz"
+"link2":"https://github.com/dsciocan/javascript-quiz",
+"description":"A short multiple-choice timed quiz, testing the user's basic knowledge of the programming language.",
+"technologies":["Javascript", "HTML", "CSS"]
 }
 ]
