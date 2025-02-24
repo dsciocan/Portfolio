@@ -13,7 +13,8 @@ export default {
     colors: {
       'bg-light' : '#F0F0F0',
       'bg-dark' : '#0B1215',
-      'dark-red' : '#601900'
+      'dark-red' : '#601900',
+      'dark-translucent':'#000000e6'
     },
     fontFamily: {
     takobe:["Takobe", "sans-serif"],
